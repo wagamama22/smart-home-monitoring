@@ -1,71 +1,124 @@
 # Automated Smart Home Monitoring System with Remote Access 
 #### Intelligent IoT-Based Home Automation & Remote Monitoring Platform
-#### Built as a hands-on embedded systems and software integration project.
+##### Built as a hands-on embedded systems and software integration project.
 
 A Raspberry Pi-based smart-home monitoring prototype that brings together environmental and light sensing, distance measurement, camera capture, on-device alerts, and a lightweight Flask dashboard.
 This project is a practical example of connecting Python software to physical hardware: sensor readings are collected in background threads, shown on an LCD, made available over HTTP, and used to trigger camera and email workflows.
-The project showcases my ability to:
+
+#### The project showcases my ability to:
+
 •	Analyze real-world business and technical requirements
+
 •	Design technology solutions for connected environments
+
 •	Research and evaluate emerging technologies
+
 •	Develop structured project documentation
+
 •	Communicate technical concepts to both technical and non-technical stakeholders
+
 •	Apply software engineering and problem-solving methodologies
+
 •	Deliver end-to-end technology projects from concept to implementation
 
-Project Objective
+## Project Objective
+
 The main objective of this project was to investigate and design a smart home ecosystem capable of:
+
 •	Monitoring home activity in real time
+
 •	Providing remote access capabilities
+
 •	Improving residential security
+
 •	Increasing energy efficiency
+
 •	Enhancing user comfort through automation
+
 •	Enabling centralized control of connected devices
+
 The project explores how modern IoT technologies can be integrated into everyday environments to create intelligent and scalable home automation solutions.
 
 ## Key Features
 
-Sensor monitoring:  
+### Sensor monitoring:  
+
 Reads temperature and humidity from a DHT11, distance from an ultrasonic sensor, and light level through a photoresistor and I2C ADC.
-Camera integration: 
+
+### Camera integration: 
+
 Captures still images and records short video clips using Raspberry Pi Camera software.
-Local feedback: 
+
+### Local feedback: 
+
 Displays status and readings on an LCD1602 and drives LEDs and a buzzer.
-Web access: 
+
+### Web access: 
+
 Runs a Flask dashboard and exposes the latest sensor readings through HTTP endpoints.
-Email notifications: 
+
+### Email notifications: 
+
 Uses Yagmail to send sensor summaries and camera attachments to designated email address.
-Concurrent workflows: 
+
+### Concurrent workflows: 
+
 Runs the sensor routines in daemon threads while the Flask server handles web requests.
-Business Value
-Smart Monitoring
+
+## Business Value
+
+#### Smart Monitoring
+
 •	Real-time home status monitoring
+
 •	Connected sensor integration
+
 •	Activity tracking and reporting
-Remote Accessibility
+
+#### Remote Accessibility
+
 •	Remote device visibility
+
 •	Off-site monitoring capabilities
+
 •	Secure access architecture considerations
 
-Home Automation
+#### Home Automation
+
 •	Automated workflows
+
 •	Device coordination
+
 •	Event-driven actions
-Security & Safety
+
+#### Security & Safety
+
 •	Smart surveillance concepts
+
 •	Automated alerts and notifications
+
 •	Risk reduction through continuous monitoring
-Energy Management
+
+#### Energy Management
+
 •	Energy consumption awareness
+
 •	Smart resource utilization
+
 •	Automation-driven efficiency improvements
+
 ## Tech Stack
 
-Language : Python 
+Language : Python
+
 Framework/Web server : Flask 
+
 Hardware I/O : GPIO Zero, I2C / SMBus, pigpio 
+
 Camera : Picamera2 
+
 Sensors and peripherals : DHT11, ultrasonic distance sensor, photoresistor with ADC, LCD1602, LEDs, buzzer 
+
 Notifications : Yagmail 
 
 ## Engineering work demonstrated
