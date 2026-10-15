@@ -1,4 +1,4 @@
-# Automated Smart Home Monitoring System with Remote Access 
+# Automated Smart Home Monitoring System with Remote Access (Academic Project)
 #### Intelligent IoT-Based Home Automation & Remote Monitoring Platform
 ##### Built as a hands-on embedded systems and software integration project.
 
@@ -41,27 +41,27 @@ The project explores how modern IoT technologies can be integrated into everyday
 
 ## Key Features
 
-### Sensor monitoring:  
+#### Sensor monitoring:  
 
 Reads temperature and humidity from a DHT11, distance from an ultrasonic sensor, and light level through a photoresistor and I2C ADC.
 
-### Camera integration: 
+#### Camera integration: 
 
 Captures still images and records short video clips using Raspberry Pi Camera software.
 
-### Local feedback: 
+#### Local feedback: 
 
 Displays status and readings on an LCD1602 and drives LEDs and a buzzer.
 
-### Web access: 
+#### Web access: 
 
 Runs a Flask dashboard and exposes the latest sensor readings through HTTP endpoints.
 
-### Email notifications: 
+#### Email notifications: 
 
 Uses Yagmail to send sensor summaries and camera attachments to designated email address.
 
-### Concurrent workflows: 
+#### Concurrent workflows: 
 
 Runs the sensor routines in daemon threads while the Flask server handles web requests.
 
